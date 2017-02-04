@@ -9,7 +9,7 @@ namespace myConsoleApp1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("aj, za arno, za ubo!");
+            Console.WriteLine("aj, za arno, za ubo! {0}", DateTime.Now.Ticks.ToString());
             Console.ReadLine();
         }
     }
